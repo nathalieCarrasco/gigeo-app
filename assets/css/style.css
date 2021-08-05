@@ -1,0 +1,134 @@
+.icon {
+  margin: 15px;
+  size: 20px;
+}
+
+.navbar_logo {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.navbar_logo .sup {
+  font-size: 1rem;
+}
+
+.header {
+  border-bottom: 0.0625rem solid #888;
+}
+.header .header__imgen {
+  background-image: url("../img/image-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 15rem;
+}
+.header .header__banner .banner__Articulo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.header .header__banner .banner__Articulo .banner__ArticuloImg {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.header .header__banner .banner__Articulo .banner__ArticuloImg .banner__ArticuloImg-Redonda {
+  width: 5rem;
+  height: auto;
+  margin: auto 2rem;
+}
+.header .header__banner .banner__Articulo .banner__ArticuloImg div h3 {
+  color: #001614;
+  font-weight: 700;
+}
+.header .header__banner .banner__Articulo .banner__ArticuloImg div h6 {
+  color: #888;
+  font-weight: 400;
+}
+.header .header__banner .banner__Articulo .banner__Btn {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .header {
+    border-bottom: 0.0625rem solid #888;
+  }
+  .header .header__imgen {
+    background-image: url("/assets/img/image-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 15rem;
+  }
+  .header .header__banner .banner__Articulo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  .header .header__banner .banner__Articulo .banner__ArticuloImg {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .header .header__banner .banner__Articulo .banner__ArticuloImg .banner__ArticuloImg-Redonda {
+    width: 5rem;
+    height: auto;
+    margin: auto 2rem;
+  }
+  .header .header__banner .banner__Articulo .banner__ArticuloImg div h3 {
+    color: #001614;
+  }
+  .header .header__banner .banner__Articulo .banner__ArticuloImg div h6 {
+    color: #888;
+  }
+  .header .header__banner .banner__Articulo .banner__Btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: auto 2rem;
+  }
+  .header .header__banner .banner__Articulo .banner__Btn div {
+    padding: 0.5rem;
+  }
+}
+main .contenedor_titulo {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+main .contenedor_titulo h4 {
+  margin-left: 2rem;
+  font-weight: 400;
+  font-size: 2rem;
+}
+main .contenedor_Card .Card .cardImg {
+  width: 90%;
+  height: auto;
+}
+main .contenedor_Card .Card p {
+  text-align: left;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+main .contenedor_Card .Card p.Card_Texto-grande {
+  padding-top: 0.6rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+main .contenedor_Card .Card p.Card_Texto-chico {
+  color: #888;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,111 @@
+.header {
+    border-bottom: 0.0625rem solid $gray;
+
+    .header__imgen{
+    background-image: url("../img/image-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 15rem;
+    }
+    .header__banner{
+    .banner__Articulo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+
+
+        .banner__ArticuloImg{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+        .banner__ArticuloImg-Redonda{
+            width: 5rem;
+            height: auto;
+            margin: auto 2rem;
+        }
+
+        div {
+            h3 {
+            color: $swamp;
+            font-weight: $lato--bold;
+            }
+            h6 {
+            color: $gray; 
+            font-weight: $lato--regular;  
+            
+            }
+        }
+        }
+        .banner__Btn{
+        display: none;
+        
+        }
+    }
+    }
+};
+
+
+@media(min-width:576px){
+    .header {
+    border-bottom: 0.0625rem solid $gray;
+    
+    .header__imgen {
+        background-image: url("/assets/img/image-banner.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 15rem;
+    }
+    .header__banner {
+        .banner__Articulo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    
+        .banner__ArticuloImg {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+    
+            .banner__ArticuloImg-Redonda{
+            width: 5rem;
+            height: auto;
+            margin: auto 2rem;
+            }
+            div {
+            h3 {
+                color: $swamp;
+            }
+            h6 {
+                color: $gray;
+            }
+            }
+        }
+        .banner__Btn{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            padding: auto 2rem;
+    
+            div {
+            padding: 0.5rem;
+            }
+        
+        }
+        }
+    }
+    }};

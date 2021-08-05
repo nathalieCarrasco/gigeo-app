@@ -1,0 +1,41 @@
+main{
+    
+    
+    .contenedor_titulo{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+
+        h4{
+            margin-left: 2rem;
+            font-weight: $lato--regular;
+            font-size: $large;
+        }
+    }
+    .contenedor_Card{
+
+        .Card{
+            
+            .cardImg{
+                width: 90%;
+                height: auto;
+            }
+
+            p{
+                text-align: left;
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+
+                &.Card_Texto-grande{
+                    padding-top: 0.6rem;
+                    font-weight: $lato--bold;
+                    margin-bottom: 0;
+                }
+                &.Card_Texto-chico{
+                    color:$gray ;
+                }
+            }
+        }
+    }
+}
